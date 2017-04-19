@@ -1,0 +1,81 @@
+VX-Server
+
+  What is it?
+  -----------
+
+  The VX-Server is a powerful and flexible HTTP/1.1 & HTTP/2 compliant
+  web server. Originally designed as a replacement for the Apache HTTP
+  Server and Nginx and other web servers for static websites.
+
+  VX-Server is a web server for static websites that created at  Idearun in 2017 created by Vahid Hussein-nezhad.
+
+  The VX-Server runs on Unix, Linux, BSD variants, MacOS, Solaris, AIX, HP-UX, and MS-Windows.
+
+  VX-Server is free and open source software, released under term of a GPL license.
+
+  The Latest Version
+  ------------------
+
+  Details of the latest version can be found on the VX-Server project page under http://vx-server.idearun.co/.
+
+  Documentation
+  -------------
+
+  The documentation available as of the date of this release is
+  included in HTML format in the docs/manual/ directory.  The most
+  up-to-date documentation can be found at
+  http://vx-server.idearun.co/wiki/.
+
+  Installation
+  ------------
+
+  Please see the file called INSTALL.  Platform specific notes can be
+  found in README.platforms.
+
+  Licensing
+  ---------
+
+  Please see the file called LICENSE.
+
+
+
+
+
+
+
+
+Getting Started
+
+	How to install VX-Server on:
+
+		MS-Windows:
+			A) Download latest version from following link:
+				http://vx-server.idearun.co/download/windows
+
+			B) Extract the ms_vx-server.zip
+
+			C) Double click on vx-server.exe and run the server
+
+			D) The root of server is c:\vx_server\public\
+
+			E) Open the Config.conf file and set server localhost & port to 80
+
+			F) If SSH is enabled on your server, you must set public & private key and if you have bundle on config file
+
+			G) If you want to use gzip, you can remove # from begining of the module
+
+		Linux and MacOS and *nix:
+			A) Download latest version from following link:
+				http://vx-server.idearun.co/download/linux
+
+			B) Extract the vs-server.tar.gz
+
+			C) Open the terminal and type "./vx-server" to run the server
+
+			D) The root of server is /var/www/vx-server/public/
+
+			E) Open the Config.conf file and set server localhost & port to 80
+
+			F) If SSH is enabled on your server, you must set public & private key and if you have bundle on config file
+
+			G) If you want to use gzip, you can remove # from begining of the module
